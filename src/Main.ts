@@ -116,7 +116,7 @@ class Main extends egret.DisplayObjectContainer {
 
         // 创建提示信息
         let msg:egret.TextField = new egret.TextField();
-        msg.text = "To旦旦：不开心的时候就捏捏这个，希望你每天都过得开心~~"
+        msg.text = "不开心的时候就捏捏这个，希望你每天都过得开心~~"
         msg.width = 350;
         msg.height = 300;
         msg.textColor = 0x000000;
@@ -134,7 +134,7 @@ class Main extends egret.DisplayObjectContainer {
         this.addChild(vers);
 
         let info:egret.TextField = new egret.TextField();
-        info.text = "Only For Sakura";
+        info.text = "power by egret";
         info.width = 200;
         info.height = 100;
         info.size = 16;
